@@ -33,7 +33,7 @@ namespace NetworkUtility.Tests.PingTest
             //Arrange - variables, classes, mocks
             A.CallTo(() => _dNS.SendDNS()).Returns(true);
 
-            //Act
+            //Act 
             var result = _pingService.SendPing();
 
             //Assert
